@@ -1,0 +1,13 @@
+import type { FC } from 'react';
+import type { {{pascalName}}PageViewProps } from './types';
+
+const {{pascalName}}PageView: FC<{{pascalName}}PageViewProps> = (props) => {
+  const { name } = props;
+  return(
+    <div>
+      <h1>{name}</h1>
+    </div>
+  ) 
+};
+
+export { {{pascalName}}PageView };

@@ -1,0 +1,17 @@
+import { api } from '{{pathToApi}}';
+import type { {{pascalCase http}}{{pascalName}}Props, {{pascalName}}ResponseProps } from '../models/api/{{camelName}}ServiceTypes';
+
+export const {{kebabCase http}}{{pascalName}} = async (args: {{pascalCase http}}{{pascalName}}Props): Promise<{{pascalName}}ResponseProps[]> => {
+  const environment = import.meta.env.VITE_ENVIRONMENT;
+
+  if (environment === 'DEV') {
+    const queryParams = new URLSearchParams(args as Record<string, string>).toString();
+    const response = await fetch(`/mock/{{camelName}}?${queryParams}`);
+    const data = await response.json();
+    return data;
+  }
+  
+  const response = await api.{{kebabCase http}}('/{{camelName}}', { params: args });
+  const data = response.data;
+  return data;
+};

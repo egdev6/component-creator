@@ -1,0 +1,16 @@
+import { api } from '{{pathToApi}}';
+
+export const {{kebabCase http}}{{pascalName}} = async (args) => {
+  const environment = import.meta.env.VITE_ENVIRONMENT;
+
+  if (environment === 'DEV') {
+    const queryParams = new URLSearchParams(args).toString();
+    const response = await fetch(`/mock/{{camelName}}?${queryParams}`);
+    const data = await response.json();
+    return data;
+  }
+
+  const response = await api.{{kebabCase http}}('/{{camelName}}', { params });
+  const data = response.data;
+  return data;
+};
