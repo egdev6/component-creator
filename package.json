@@ -1,6 +1,6 @@
 {
-	"name": "@egdev/component-creator",
-	"version": "1.0.0",
+	"name": "@egdev6/component-creator",
+	"version": "1.0.1",
 	"description": "Tool to automatize components creation based on templates",
 	"type": "module",
 	"bin": {
@@ -15,7 +15,7 @@
 		"templates",
 		"mocks"
 	],
-	"devDependencies": {
+	"dependencies": {
 		"plop": "4.0.1",
 		"path": "0.12.7",
 		"node-plop": "0.32.0",
@@ -25,7 +25,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/egdev/component-creator.git"
+		"url": "https://github.com/egdev6/component-creator.git"
 	},
 	"bugs": {
 		"url": "https://github.com/egdev6/component-creator/issues"
