@@ -1,6 +1,6 @@
 {
 	"name": "@egdev6/component-creator",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Tool to automatize components creation based on templates",
 	"type": "module",
 	"bin": {
