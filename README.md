@@ -81,7 +81,7 @@ The package includes a default configuration file that defines the base paths an
 
 ### 🔧 Overriding the Configuration
 
-If you want to customize the paths or file extensions, you can create a `egdev-component-creator.json` file in the root of your project. This file will override the default configuration.
+If you want to customize the paths or file extensions, you can create a `component-creator.config.json` file in the root of your project. This file will override the default configuration.
 
 #### Example of a Custom Configuration
 
@@ -155,7 +155,7 @@ Add the following comments to your routes file (e.g., `src/app/Router.tsx`):
 
 ```javascript
 // -- plop hook for import -- //
-// -- plop hook for route -- //
+{/* -- plop hook for route -- */}
 ```
 
 #### Configuration
@@ -180,7 +180,7 @@ If you generate a page named `Home`, the tool will add the following to your rou
 // -- plop hook for import -- //
 const HomePage = lazy(() => import('./pages/home/HomePage'));
 
-// -- plop hook for route -- //
+{/* -- plop hook for route -- */}
 <Route path="/home" element={<HomePage />} />
 ```
 

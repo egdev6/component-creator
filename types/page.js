@@ -64,7 +64,7 @@ export const addPageActions = (actions, data, srcRoot, config) => {
 				const fileContent = fs.readFileSync(routesFilePath, "utf-8");
 
 				const importPattern = /(\/\/\s-- plop hook for import --\s\/\/)/;
-				const routePattern = /(\/\/\s-- plop hook for route --\s\/\/)/;
+				const routePattern = /{\/\* -- plop hook for route -- \*\/}/;
 
 				const hasImportPattern = importPattern.test(fileContent);
 				const hasRoutePattern = routePattern.test(fileContent);

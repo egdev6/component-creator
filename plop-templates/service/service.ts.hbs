@@ -1,5 +1,5 @@
 import { api } from '{{pathToApi}}';
-import type { {{pascalCase http}}{{pascalName}}Props, {{pascalName}}ResponseProps } from '../models/api/{{camelName}}ServiceTypes';
+import type { {{pascalCase http}}{{pascalName}}Props, {{pascalName}}ResponseProps } from '{{typesBasePath}}/{{camelName}}ServiceTypes';
 
 export const {{kebabCase http}}{{pascalName}} = async (args: {{pascalCase http}}{{pascalName}}Props): Promise<{{pascalName}}ResponseProps[]> => {
   const environment = import.meta.env.VITE_ENVIRONMENT;

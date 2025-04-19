@@ -55,7 +55,7 @@ export const addComponentActions = (actions, data, srcRoot, config) => {
 				);
 				if (config.config.extension === "ts") {
 					console.log(
-						`🔗 added: ${config.components}/${data.folder}/${kebabCase(data.name)}/types.${extension}\n`,
+						`🔗 added: ${config.components}/${data.folder}/${kebabCase(data.name)}/types.${extension}`,
 					);
 				}
 				console.log(

@@ -16,6 +16,7 @@ export const addServiceActions = (actions, data, srcRoot, config) => {
 	);
 	const extension = config.config.extension || "ts";
 	data.pathToApi = pathToApi;
+	data.typesBasePath = typesBasePath;
 
 	if (data?.type === "service") {
 		actions.push(
