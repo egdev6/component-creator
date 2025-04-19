@@ -1,8 +1,13 @@
 #!/usr/bin/env node
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import inquirer from "inquirer";
 import nodePlop from "node-plop";
 import { kebabCase, pascalCase } from "../utils/helpers.js";
 import loadConfig from "../utils/load-config.js";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const main = async () => {
 	console.log(
@@ -12,7 +17,8 @@ const main = async () => {
 	const config = loadConfig();
 	const extension = config.extension || "ts";
 
-	const plop = await nodePlop("./bin/component-creator.js");
+	const plopFilePath = path.resolve(__dirname, "./component-creator.js");
+	const plop = await nodePlop(plopFilePath);
 	const generator = plop.getGenerator("crear");
 	let repeat = true;
 
