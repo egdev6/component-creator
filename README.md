@@ -69,7 +69,7 @@ The package includes a default configuration file that defines the base paths an
 	},
 	"services": {
 		"base": "src/services",
-    "axios": "src/config/axios", // export named api
+		"axios": "src/config/axios", // export named api
 		"types": "src/models/api",
 		"mocks": {
 			"data": "src/mocks/data",
