@@ -6,6 +6,7 @@ export const addServiceActions = (actions, data, srcRoot, config) => {
 	const serviceBasePath = path.join(srcRoot, `${config.services.base}/`);
 	const typesBasePath = path.join(srcRoot, `${config.services.types}`);
 	const pathToApi = config.services.axios;
+	const pathToTypes = config.services.types;
 	const mocksDataBasePath = path.join(
 		srcRoot,
 		`${config.services.mocks.data}/`,
@@ -16,7 +17,7 @@ export const addServiceActions = (actions, data, srcRoot, config) => {
 	);
 	const extension = config.config.extension || "ts";
 	data.pathToApi = pathToApi;
-	data.typesBasePath = typesBasePath;
+	data.pathToTypes = pathToTypes;
 
 	if (data?.type === "service") {
 		actions.push(
