@@ -45,12 +45,13 @@ const main = async () => {
 	};
 
 	const openInEditor = async (folderPath) => {
-		const editorPath = "open -a 'Editor'"; // Adjust for your editor
+		const editorPath = "code"; // Adjust for your editor
+		const absolutePath = path.resolve(folderPath);
 
 		try {
-			console.log(`Opening editor at: ${folderPath}`);
+			console.log(`Opening editor at: ${absolutePath}`);
 			const { execSync } = await import("node:child_process");
-			execSync(`${editorPath} ${folderPath}`, {
+			execSync(`${editorPath} ${absolutePath}`, {
 				stdio: "inherit",
 				env: { ...process.env, PATH: process.env.PATH },
 			});

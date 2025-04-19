@@ -46,7 +46,7 @@ export const addComponentActions = (actions, data, srcRoot, config) => {
 			},
 			() => {
 				console.log("------------------------------------------");
-				console.log(`🔧 Gnerating component ${pascalCase(data.name)}\n`);
+				console.log(`🔧 Generating component ${pascalCase(data.name)}\n`);
 				console.log(
 					`🔗 added: ${config.components}/${data.folder}/${kebabCase(data.name)}/${pascalCase(data.name)}.${extension}x`,
 				);
