@@ -38,7 +38,7 @@ Component Creator is a tool designed to automate the creation of React component
 ## 📦 Installation
 
 ```bash
-npm i -D @egdev/component-creator
+npm i -D @egdev6/component-creator
 ```
 
 ## 🚀 Usage
