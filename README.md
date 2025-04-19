@@ -22,12 +22,17 @@ Component Creator is a tool designed to automate the creation of React component
 
 ## ✨ Features
 
-•	🧩 Component Generation: Quickly create React components with TypeScript support, including stories for Storybook.
-•	📄 Page Creation: Generate pages with logic, view, and routing setup.
-•	🔁 Custom Hooks: Easily create reusable hooks with Zustand store integration.
-•	🔌 Service Setup: Generate services with TypeScript types, mock data, and handlers for API calls.
-•	💬 Prompt-Based Interface: User-friendly prompts guide you through the creation process.
-•	⚙️ Customizable Configuration: Default paths and file extensions can be overridden with a user-defined configuration file.
+• 🧩 Component Generation: Quickly create React components with TypeScript support, including stories for Storybook.
+
+• 📄 Page Creation: Generate pages with logic, view, and routing setup.
+
+• 🔁 Custom Hooks: Easily create reusable hooks with Zustand store integration.
+
+• 🔌 Service Setup: Generate services with TypeScript types, mock data, and handlers for API calls.
+
+• 💬 Prompt-Based Interface: User-friendly prompts guide you through the creation process.
+
+• ⚙️ Customizable Configuration: Default paths and file extensions can be overridden with a user-defined configuration file.
 	
 
 ## 📦 Installation
