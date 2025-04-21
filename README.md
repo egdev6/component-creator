@@ -253,6 +253,8 @@ If you generate a service named `test`, the tool will add the following to your 
 
 ## 📌 Next steps
 
+[ ] - Better UX for output WIP
+
 [ ] - Custom templates by component type
 
 [ ] - Different templates to manage context libraries
