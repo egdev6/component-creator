@@ -1,6 +1,6 @@
 {
 	"name": "@egdev6/component-creator",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Tool to automatize components creation based on templates",
 	"type": "module",
 	"bin": {
@@ -17,7 +17,6 @@
 	],
 	"dependencies": {
 		"plop": "4.0.1",
-		"path": "0.12.7",
 		"node-plop": "0.32.0",
 		"inquirer": "12.5.2"
 	},
