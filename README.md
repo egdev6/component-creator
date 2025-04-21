@@ -69,7 +69,7 @@ The package includes a default configuration file that defines the base paths an
 	},
 	"services": {
 		"base": "src/services",
-    "axios": "src/config/axios", // export named api
+		"axios": "src/config/axios", // export named api
 		"types": "src/models/api",
 		"mocks": {
 			"data": "src/mocks/data",
@@ -252,6 +252,8 @@ If you generate a service named `test`, the tool will add the following to your 
 ```
 
 ## 📌 Next steps
+
+[ ] - Better UX for output 🔥 WIP 🔥
 
 [ ] - Custom templates by component type
 
