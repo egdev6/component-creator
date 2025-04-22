@@ -255,6 +255,8 @@ If you generate a service named `test`, the tool will add the following to your 
 
 [ ] - Better UX for output 🔥 WIP 🔥
 
+[ ] - Fonfiguration with different naming conventions
+
 [ ] - Custom templates by component type
 
 [ ] - Different templates to manage context libraries
