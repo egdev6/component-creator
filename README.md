@@ -6,6 +6,10 @@
 
 </div>
 
+<div align='center'>
+	⚠️⚠️⚠️ DEPRECATED!!! VISIT THIS SITE FOR UPDATES -> https://github.com/egdev6/compilot-cli ⚠️⚠️⚠️
+</div>
+
 <div align="center">
 
 [![SCR-20250419-dwtb.png](https://i.postimg.cc/L5JZRGqf/SCR-20250419-dwtb.png)](https://postimg.cc/8fVCmKmP)
