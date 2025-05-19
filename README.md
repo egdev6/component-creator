@@ -9,6 +9,8 @@
 <div align='center'>
 	⚠️⚠️⚠️ DEPRECATED!!! VISIT THIS SITE FOR UPDATES -> https://github.com/egdev6/compilot-cli ⚠️⚠️⚠️
 </div>
+<br>
+<br>
 
 <div align="center">
 
